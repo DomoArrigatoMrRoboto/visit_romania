@@ -1,0 +1,53 @@
+.about-container {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    height: 100vh;
+    width:100%;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 30vh; 
+    overflow: hidden;
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .banner-title {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .content-row {
+    height: calc(100vh - 50vh); 
+  }
+  
+  .left-section, .right-section {
+    overflow-y: auto;
+  }
+  
+  .left-section {
+    border-right: 1px solid #ddd; 
+  }
+

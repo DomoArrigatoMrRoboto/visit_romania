@@ -1,0 +1,13 @@
+.about-cards-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px; 
+  justify-content: center; 
+  padding: 20px;
+}
+
+.about-card {
+  flex: 1 1 calc(33.333% - 20px); 
+  max-width: calc(33.333% - 20px); 
+  box-sizing: border-box; 
+}

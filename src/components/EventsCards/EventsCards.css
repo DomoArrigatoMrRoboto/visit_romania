@@ -1,0 +1,29 @@
+.events-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  justify-content: center; 
+}
+
+.events-card {
+  flex: 1 1 calc(33.333% - 20px); 
+  max-width: calc(33.333% - 20px); 
+  box-sizing: border-box;
+}
+
+
+@media (max-width: 768px) {
+  .events-card {
+    flex: 1 1 calc(50% - 20px); 
+    max-width: calc(50% - 20px);
+  }
+}
+
+
+@media (max-width: 480px) {
+  .events-card {
+    flex: 1 1 100%; 
+    max-width: 100%;
+  }
+}
+

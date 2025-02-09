@@ -1,0 +1,22 @@
+.nav-bar {
+    position:fixed;
+    display:flex;
+    top: 0;
+    width: 100%;
+    z-index: 1050;
+}
+
+.navbar-brand , .nav-link  {
+    color: var(--color-light-green);
+    font-weight:800;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: var(--color-darker-green) ;
+}    
+
+.logo {
+    width:200px;
+    height: auto;
+    max-width: 100%;
+}

@@ -1,0 +1,11 @@
+.card-img-top {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover .card-img-top {
+    transform: scale(1.05);
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
