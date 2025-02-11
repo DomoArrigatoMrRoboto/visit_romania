@@ -11,3 +11,17 @@
   max-width: calc(33.333% - 20px); 
   box-sizing: border-box; 
 }
+
+@media (max-width: 768px) {
+  .about-card {
+    flex: 1 1 calc(50% - 10px); 
+    max-width: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 480px) {
+  .about-card {
+    flex: 1 1 100%; 
+    max-width: 100%;
+  }
+}
