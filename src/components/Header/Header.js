@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Container, Nav, Navbar, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Header.css";
+import logo from '../../visitromanialogo.png'; 
+
 
 function Header() {
   const [expanded, setExpanded] = useState(false); 
@@ -9,17 +11,14 @@ function Header() {
   return (
     <Navbar
       expand="sm"
-      bg="white" 
+      bg="dark" 
+      variant= "dark"
       className="nav-bar fixed-top w-100 shadow" 
       expanded={expanded} 
     >
       <Container>
         <Navbar.Brand as={Link} to="/" onClick={() => setExpanded(false)}>
-          <Image
-            className="logo"
-            src="https://visit-romania.eu/wp-content/uploads/2016/04/1-1.png"
-            alt="Logo"
-          />
+        <img src={logo} alt="Logo" className="logo"/>
         </Navbar.Brand>
        
         <Navbar.Toggle
