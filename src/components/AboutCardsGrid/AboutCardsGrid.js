@@ -24,12 +24,12 @@ const cardsData = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Kirchenburg_Birth%C3%A4lm.jpg/800px-Kirchenburg_Birth%C3%A4lm.jpg"
   } ,
   {
-    title: "The Turkish Bazaar,Lipova",
+    title: "The Turkish Bazaar ,Lipova",
     imageUrl:
       "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFRdXtymI790FVSmOmPyaVUQRrwzhNAyvnvTKGBJvdNuRfBh2xLooPA1DOBuUEgDpBUUmEwTLTVMiWr4WtC_1k0ymLvpQP3FiJsS_-h1AuvEaJiAgi4O6ZuFEFW7_Fh-a03ryNIPcGQEqX/s1600/bazarul_turcesc_lipova.jpg"
   } ,
   {
-    title: "Turkish Bath,Iasi",
+    title: "Turkish Bath ,Iasi",
     imageUrl:
       "https://i.redd.it/turkish-bath-iasi-romania-recently-renovated-v0-4ar3u8jpmk0c1.jpg?width=1416&format=pjpg&auto=webp&s=d3513053ae58217c7a1e28bba320fd51dfdb64a3"
   } ,

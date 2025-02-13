@@ -18,7 +18,11 @@
   position: absolute;
   z-index: 10;
   text-align: center;
-  color: var(--color-light-green);
+  color: var(--color-light-yellow);
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5); 
+  padding: 20px 50px;
+  border-radius: 5px;
 }
 
 .hero-title {

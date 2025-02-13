@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container, Nav, Navbar, Image } from "react-bootstrap";
+import { Container, Nav, Navbar} from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Header.css";
 import logo from '../../visitromanialogo.png'; 
