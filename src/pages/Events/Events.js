@@ -17,7 +17,7 @@ function Events() {
         </h1>
       </div>
 
-      <h5>
+      <h5 className="events-article">
         Welcome to the lively world of the best festivals of Romania where a mix
         of live music, culture, history, and good vibes will surprise and offer
         you an amazing experience and another good reason to visit our country!

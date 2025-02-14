@@ -38,3 +38,19 @@
   margin-top: 20px;
 }
 
+@media screen and (max-width: 600px) {
+  .banner-title {
+    font-size: 2rem; 
+    padding: 10px 5px 0; 
+    margin-top: 10px; 
+    width: 90%; 
+    word-wrap: break-word;
+  }
+
+  .events-container , .events-article {
+    font-size: 20px;
+  }
+}
+
+
+
